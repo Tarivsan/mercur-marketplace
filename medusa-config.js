@@ -46,7 +46,9 @@ const plugins = [
 	},
 	{
 		resolve: '@medusajs/admin',
-		options: {},
+		options: {
+			autoRebuild: true,
+		},
 	},
 ];
 
