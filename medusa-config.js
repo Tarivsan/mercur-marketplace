@@ -44,12 +44,14 @@ const plugins = [
 		resolve: '@rigby-software-house/mercurjs-vendor',
 		options: {
 			autoRebuild: true,
+			host: "https://marketplace-with-mercur-mercur-server.zelic3.easypanel.host",
 		},
 	},
 	{
 		resolve: '@medusajs/admin',
 		options: {
 			autoRebuild: true,
+			host: "https://marketplace-with-mercur-mercur-server.zelic3.easypanel.host",
 		},
 	},
 ];
@@ -77,7 +79,7 @@ const projectConfig = {
 	database_url: DATABASE_URL,
 	admin_cors: ADMIN_CORS,
 	// Uncomment the following lines to enable REDIS
-	redis_url: REDIS_URL
+	// redis_url: REDIS_URL
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
